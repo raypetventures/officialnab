@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  position: relative;
+}
+#logo-cnt{
+  text-align: center;
+  padding: 8px 0;
+}
+#logo-nab{
+  font-family: 'Girassol', cursive;
+  font-size: 50px;
+  letter-spacing: 15px;
+  font-weight: bolder;
+  z-index: 100;
+}
+#logo-etf{
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  display: inline-block;
+  background: #fff;
+  font-size: 9px;
+  top: 40px;
+  letter-spacing: 7px;
+  font-weight: bolder;
+}
+
+/* FIRST ROW */
+.first-col{
+  position: relative;
+  background-image: url("img/gh.jpg")!important;
+  height: 400px;
+  background-size: contain!important;
+}
+#col1{
+  background-size: cover;
+  background-repeat: no-repeat!important;
+}
+
+@media screen and (min-width: 945px)
+and (max-width: 80000px){
+  .first-col{
+    margin: auto;
+    width: 945px;
+  }
+}
+#obc{
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 185px;
+}
+/* ***FIRST ROW**** */
+
+/* HIMSELF */
+.nab-himself{
+  width: 80%;
+  margin: 100px auto;
+  padding: 30px 0;
+  font-family: 'Lora', serif;
+}
+@media screen and (min-width: 744px)
+and (max-width: 80000px){
+  .nab-himself{
+    width: 644px;
+  }
+}
+.nab-himself h2{
+  display: inline;
+}
+.nab-himself p{
+  display: inline;
+}
+#services-list{
+  width: 95%;
+  margin: auto;
+  display: block;
+}
+/* ****HIMSELF**** */
+
+/* WORKS */
+.title{
+  text-align: center;
+  margin-bottom: 55px;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.works{
+  margin-top: 100px;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+@media screen and (min-width: 850px)
+and (max-width: 80000px){
+  #col1{
+    margin-bottom: 100px;
+  }
+  .works{
+    width: 850px;
+    margin: auto;
+  }
+}
+.w-cnt{
+  width: 45%;
+  height: 260px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+@media screen and (min-width: 460px)
+and (max-width: 80000px){
+  .w-cnt{
+    width: 29%;
+  }
+}
+.w-cnt img{
+  height: 100%;
+}
+.w-cnt span{
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  z-index: 100;
+  left: 20px;
+  right: -17px;
+  top: 44%;
+  font-size: 15px;
+  font-size: bold;
+}
+/* ****WORKS**** */
+
+/* CONTACT */
+.contact-himself{
+  margin: 100px 0;
+}
+.contact-himself img{
+  width: 100%;
+}
+.contact-himself .col-nb{
+  position: relative;
+  width: 100%;
+}
+#col-img-bx{
+  width: 100%;
+}
+@media screen and (min-width: 800px)
+and (max-width: 80000px){
+  #col-img-bx{
+    width: 57%;
+  }
+  #data-col{
+    width: 43%;
+  }
+  #line{
+    width: 0.1%!important;
+    margin: none;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    margin-bottom: 0px;
+  }
+  #data-col form{
+    width: 85%!important;
+  }
+  form textarea{
+    width: 100%!important;
+  }
+  .contact-himself img{
+    margin-top: 79px;
+  }
+}
+#line{
+  display: block;
+  padding: 1px;
+  background: #1f0e0d;
+  width: 57%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#data-col{
+}
+#data-col form{
+  padding: 15px 0;
+}
+#data-col form{
+  width: 95%;
+  margin: auto;
+}
+form label{
+  display: block;
+  font-weight: bold;
+}
+form input{
+  width: 90%;
+  padding: 8px;
+  border-color: #cfcfcf;
+  border-width: thin;
+}
+form input:focus{
+  outline: none;
+}
+form textarea{
+  width: 95%;
+  padding: 5px;
+}
+.human-text span{
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+}
+.indicator{
+  border: 1px solid #cfcfcf;
+  border-radius: 50%;
+  display: block;
+  background: #fff;
+}
+#contact-btn{
+  display: block;
+  color: #530503;
+  background: #fff;
+  width: 130px;
+  padding: 5px;
+  border: none;
+  margin: auto;
+  margin-top: 5px ;
+  font-weight: bold;
+}
+#contact-btn:hover{
+  box-shadow: 4px 4px 12px grey;
+}
+#error-ctc{
+  display: none;
+}
+/* ***CONTACT*** */
+
+.cosmos{
+  height: 300px;
+}
+
+
+footer{
+  padding: 10px 5%;
+  color: #7d7d7d;
+  font-size: 13px;
+}
+footer ul{
+  text-align: center;
+  margin: 0;
+}
+footer ul li{
+  display: inline-block;
+  margin-right: 3%;
+}
+footer a{
+  display: block;
+  color: inherit;
+}
+.copyright{
+  text-align: center;
+  font-size: 13px;
+}
