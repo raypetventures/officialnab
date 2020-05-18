@@ -119,11 +119,51 @@ and (max-width: 80000px){
   text-align: center;
   display: inline-block;
   position: relative;
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#raypet{
+  background-image: url(../img/worka.png);
+}
+#loulou{
+  background-image: url(../img/workb.png);
+}
+#beedark{
+  background-image: url(../img/workd.png);
+}
+#phina{
+  background-image: url(../img/workg.png);
+}
+#jemys{
+  background-image: url(../img/workf.png);
+}
+#bbc{
+  background-image: url(../img/worke.png);
 }
 @media screen and (min-width: 460px)
 and (max-width: 80000px){
   .w-cnt{
     width: 29%;
+  }
+}
+@media screen and (min-width: 624px)
+and (max-width: 80000px){
+  .w-cnt{
+    height: 307px;
+  }
+}
+@media screen and (min-width: 718px)
+and (max-width: 80000px){
+  .w-cnt{
+    height: 346px;
+  }
+}
+@media screen and (min-width: 810px)
+and (max-width: 80000px){
+  .w-cnt{
+    height: 427px;
   }
 }
 .w-cnt img{
@@ -132,14 +172,11 @@ and (max-width: 80000px){
 .w-cnt span{
   background: rgba(0,0,0,0.85);
   color: #fff;
-  position: absolute;
-  display: inline-block;
-  z-index: 100;
-  left: 20px;
-  right: -17px;
-  top: 44%;
+  display: block;
   font-size: 15px;
   font-size: bold;
+  display: block;
+  margin-top: 70%;
 }
 /* ****WORKS**** */
 
