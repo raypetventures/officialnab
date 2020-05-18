@@ -1,6 +1,7 @@
-$("#contact-btn").attr("disabled", true);
-$("#contact-btn").css("cursor","not-allowed");
+//$("#contact-btn").attr("disabled", true);
+//$("#contact-btn").css("cursor","not-allowed");
 
+$("#contact-btn").hide();
 
   $("#iamrobot").click(
     function(){
@@ -14,7 +15,8 @@ $("#contact-btn").css("cursor","not-allowed");
       $(".indicator").css("background","#fff");
       $("#human").css("background","#000");
       $("#error-ctc").hide();
-      $("#contact-btn").attr("disabled", false);
+      //$("#contact-btn").attr("disabled", false);
+      $("#contact-btn").show();
       $("#contact-btn").css("cursor","pointer");
     }
   );
@@ -28,7 +30,8 @@ $("#contact-btn").css("cursor","not-allowed");
 
   function showError(){
     $("#error-ctc").show();
-    $("#contact-btn").css("cursor","not-allowed");
+    // WARNING: $("#contact-btn").css("cursor","not-allowed");
+    $("#contact-btn").hide();
     setTimeout(
       function(){
         $("#error-ctc").hide();
