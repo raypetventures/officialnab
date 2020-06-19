@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ETF'S BUSINESS | NAB ETUAFUL</title>
+
+    <!-- GOOGLE MATERIAL DESIGN & iCONS:  -->
+      <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+      <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- //GOOGLE MATERIAL  DESIGN & iCONS:  -->
+
+    <!-- BOOSTRAP:  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- //BOOSTRAP:  -->
+    <!-- BOOSTRAP:  -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- //BOOSTRAP:  -->
+
+    <!-- FONT AWESOME:  -->
+    <script src="https://kit.fontawesome.com/62d079bafb.js" crossorigin="anonymous"></script>
+    <!-- //FONT AWESOME:  -->
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <!-- //GOOGLE FONTS -->
+
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+
+    <div class="login-bx lbx">
+      <div class="login-ctn">
+        <div class="logo">
+          <span class="f2">NAB ETUAFUL</span>
+        </div>
+        <div class="inputs">
+          <div class="form-group">
+            <div class="input-txt">
+              <input type="password" name="" value="" class="iStyles" id="code" active>
+                <br><br>
+                <div class="btn-bx">
+                  <i class="fa fa-spinner fa-spin loader"></i>
+                <button type="submit" name="button" class="bStyles" onclick="loginF();">LOGIN</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="business-1">
+      <div class="row-1">
+        <div class="cnt">
+          <span class="lbl">Balance</span>
+          <div class="contents">
+             <div class="amount-balance">
+               <small>GHc</small>0.00
+             </div>
+             <div class="updated">
+               <span class="date">19-Jun-20</span>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row-2">
+        <div class="cnt">
+          <span class="lbl">Vehicle Expense</span>
+          <div class="contents">
+             <ul>
+               <li>
+                 <i class="fas fa-car"></i>
+                 <span class="expense-name">Miles <small>per week</small> </span>
+                 <span class="expense-value text-warning">1,000</span>
+               </li>
+               <li>
+                 <i class="fas fa-car"></i>
+                 <span class="expense-name">Gasoline <small>full tank</small>  </span>
+                 <span class="expense-value text-warning">165ghc</span>
+               </li>
+             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row-2">
+        <div class="cnt">
+          <span class="lbl">Expenses <small>(Home & Vehicle usage)</small> </span>
+          <div class="contents">
+             <ul>
+               <li>
+                 <i class="fas fa-car"></i>
+                 <span class="expense-name">Gasoline <small>2x per week</small> </span>
+                 <span class="expense-value text-warning">330ghc</span>
+               </li>
+               <li>
+                 <i class="fas fa-home"></i>
+                 <span class="expense-name">Electricity Bill <small>(per month)</small>  </span>
+                 <span class="expense-value text-warning">150ghc</span>
+               </li>
+               <li>
+                 <i class="fas fa-home"></i>
+                 <span class="expense-name">Farida <small>(per week)</small>  </span>
+                 <span class="expense-value text-warning">500ghc</span>
+               </li>
+             </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row-2">
+        <div class="cnt">
+          <span class="lbl">Estimated Income</span>
+          <div class="contents">
+             <ul>
+               <li>
+                 <i class="fas fa-funnel-dollar"></i>
+                 <span class="expense-name">Daily Income  </span>
+                 <span class="expense-value text-success">200.00ghc</span>
+               </li>
+               <li>
+                 <i class="fas fa-funnel-dollar"></i>
+                 <span class="expense-name">Weekly Income </span>
+                 <span class="expense-value text-success">1,200ghc</span>
+               </li>
+               <li>
+                 <i class="fas fa-funnel-dollar"></i>
+                 <span class="expense-name">Monthly Income </span>
+                 <span class="expense-value text-success">4,800ghc</span>
+               </li>
+             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+    $(".loader").hide();
+    $(".login-ctn").hide();
+    setTimeout(
+      function(){
+        $(".login-ctn").fadeIn("slow");
+      }, 5000
+    );
+      function loginF(){
+        var code = $("#code").val();
+        if (code == "joanjobodi1818") {
+          $(".bStyles").hide();
+          $(".loader").show();
+          setTimeout(
+            function(){
+              $(".login-ctn").hide();
+            }, 5000
+          );
+          setTimeout(
+            function(){
+              $(".login-bx").hide();
+              $(".business-1").show();
+            }, 8000
+          );
+        } else {
+
+        }
+      }
+
+      // // TODO:
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"></script>
+  </body>
+</html>
