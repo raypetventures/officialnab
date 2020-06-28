@@ -114,6 +114,9 @@ function moveD5(){
   $(".d5a i").show();
   $(".d5").show();
 }
+function logout(){
+  window.location.replace("index.html");
+}
 //INITS
 $('.carousel').carousel();
 $('.carousel.carousel-slider').carousel({
