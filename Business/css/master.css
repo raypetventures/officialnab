@@ -1,0 +1,82 @@
+html, body{
+  height: 100%;
+}
+body{
+  background-image: url(../img/lux.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.login-section{
+  height: 87%;
+}
+.form-bx{
+  background: rgba(0,0,0,0.5);
+}
+.form-bx form{
+  color: snow!important;
+}
+.form .btn{
+  margin: auto;
+}
+.accounts{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 500;
+  overflow: hidden;
+}
+
+
+
+.c-nb{
+  z-index: 555;
+}
+.c-nb a img{
+  width: 200px;
+  height: 200px;
+}
+.c-nb span{
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+
+@media screen and (max-width: 475px)
+and (min-width: 0){
+  .nb-tab a{
+    font-size: 68%!important;
+  }
+}
+
+
+/* WARNING: Dashboard */
+.dashboard{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.title-page h3{
+  padding-left: 5%;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.uber-card tbody tr td{
+}
+.amount-td{
+  text-align: right;
+}
+.total-balance{
+  font-weight: bold;
+  letter-spacing: 1px;
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+.dashboard-tbl tr td{
+  padding: 5px 5px!important;
+}
