@@ -63,6 +63,7 @@ function accessAccount(){
   setTimeout(
     function(){
       $(".account-1").addClass("scale-transition scale-in");
+      $(".account-1").show();
     }, 7000
   );
   $(".pm-controller").show();
