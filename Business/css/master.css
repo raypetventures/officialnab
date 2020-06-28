@@ -27,8 +27,13 @@ body{
   z-index: 500;
   overflow: hidden;
 }
-
-
+.account-logout{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 8px;
+  z-index: 99999;
+}
 
 .c-nb{
   z-index: 555;
